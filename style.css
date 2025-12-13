@@ -220,7 +220,7 @@ nav {
 
 @keyframes float {
     0% { transform: translateY(0px); }
-    50% { transform: translateY(-5px); }
+    50% { transform: translateY(-8px); }
     100% { transform: translateY(0px); }
 }
 
@@ -347,7 +347,7 @@ nav {
 
 /* --- SECTION 1: FLAVOR RIFT (Horizontal Accordion) --- */
 .flavor-rift {
-    height: 80vh;
+    height: 70vh;
     padding: 50px 0;
     display: flex;
     flex-direction: column;
@@ -403,7 +403,9 @@ nav {
     opacity: 0;
     transform: translateY(20px);
     transition: all 0.5s ease 0.2s;
-    background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
+    background: linear-gradient(to top, rgba(0,0,0,0.9), transparent); /* Darker gradient for readability */
+    position: relative;
+    z-index: 5; /* Brings text to front */
 }
 
 .panel-details {
@@ -413,12 +415,10 @@ nav {
 }
 
 .panel-id {
-    position: absolute;
-    top: 20px;
+    position:   absolute;
+    top: 10px;
     right: 20px;
-    font-size: 2rem;
-    font-weight: 800;
-    opacity: 0.3;
+   
 }
 
 /* Hover/Active States */
