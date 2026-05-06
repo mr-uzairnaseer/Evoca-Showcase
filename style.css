@@ -630,10 +630,11 @@ a {
     font-weight: 800;
     margin-bottom: 15px;
     text-transform: uppercase;
+    color: #3191f7;
 }
 
 .feature-card p {
-    color: var(--text-muted);
+    color: #ffffff;
     font-size: 1rem;
     line-height: 1.6;
 }
