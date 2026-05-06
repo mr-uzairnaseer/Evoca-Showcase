@@ -92,7 +92,7 @@ html {
 body {
     font-family: 'Inter', sans-serif;
     background-color: var(--bg-dark);
-    background-image: url('Background.png');
+    background-image: url('assets/Background.png');
     background-position: top center;
     background-size: 100% auto;
     background-repeat: repeat-y;
@@ -386,7 +386,7 @@ a {
 }
 
 .showcase-container {
-    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url('cardbg.png') #000 50% / cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url('assets/cardbg.png') #000 50% / cover no-repeat;
     backdrop-filter: blur(5px);
     border-radius: 30px;
     display: flex;
