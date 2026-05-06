@@ -85,15 +85,15 @@
                 <span class="dot" data-index="4"></span>
             </div>
             <div class="product-image">
-                <img src="1.png" alt="Evoca Product" id="productImage">
+                <img src="2.png" alt="Evoca Product" id="productImage">
             </div>
             <div class="product-info reveal">
-                <span class="product-tag" id="productTag">Evoca Strawberry</span>
-                <h2 class="product-heading" id="productHeading">AUTHENTIC TASTE<br>IN EVERY SIP</h2>
+                <span class="product-tag" id="productTag">Evoca Cola</span>
+                <h2 class="product-heading" id="productHeading">CLASSIC TASTE<br>REIMAGINED</h2>
                 <p class="product-description" id="productDesc">
-                    Evoca Strawberry combines freshly pressed strawberry juice and premium ingredients for a naturally refreshing, authentic flavour.
+                    Our signature Cola blend features natural mineral water and a unique black seed extract for a bold, sophisticated profile.
                     <br><br>
-                    Carefully crafted from real fruit and natural mineral water, it delivers a smooth texture, bold flavour, and revitalising refreshment wherever you are.
+                    Experience a refreshing twist on a timeless classic, crafted for those who appreciate premium quality and authentic ingredients.
                 </p>
             </div>
         </div>
@@ -102,7 +102,10 @@
     <section class="campaign-system">
         <div class="campaign-header reveal">
             <h2 class="header-main">CENTRAL <span class="highlight-red">CAN</span>.<br>ALL FLAVOURS IN FOCUS.</h2>
-            <p class="header-sub">Our product pages present each drink as part of an immersive, cinematic display — a central can with orbiting flavours and vivid highlights.</p>
+            <p class="header-sub">Our product pages present each drink as part of an immersive showcase .</p>
+            <div class="campaign-banner reveal delay-1">
+                <img src="centralcans.png" alt="Evoca Cans Range" class="banner-img">
+            </div>
         </div>
 
         <div class="campaign-grid">
@@ -225,9 +228,11 @@
                 <img src="Zero.png" alt="Evoca Strawberry" class="zero-can">
             </div>
             <div class="zero-right">
-                <h2 class="zero-heading">START FROM<br>ZERO</h2>
+                <h2 class="zero-heading">ZERO CALORIES.<br>ALL THE TASTE.</h2>
                 <p class="zero-text">
-                    Enjoy the bold, classic flavor of strawberry without the sugar with Strawberry Zero. Designed for those who want great taste without compromise, this refreshing drink delivers the same rich strawberry experience with zero sugar and fewer calories.
+                    Indulge in the full, rich taste of our Cola, now with zero calories. Infused with real kola nut and our exclusive black seed extract, Evoca Cola Zero offers all the bold, sophisticated flavours of the original, without the sugar.
+                    <br><br>
+                    Perfect for those who want the taste they love with none of the calories, Evoca Cola Zero delivers refreshment, energy, and flavour in every sip.
                 </p>
                 <a href="#" class="btn btn-primary">EXPLORE FLAVORS</a>
             </div>
@@ -361,22 +366,16 @@
         // Flavor Switcher Logic
         const flavors = [
             {
-                tag: "Evoca Strawberry",
-                heading: "AUTHENTIC TASTE<br>IN EVERY SIP",
-                desc: "Evoca Strawberry combines freshly pressed strawberry juice and premium ingredients for a naturally refreshing, authentic flavour.<br><br>Carefully crafted from real fruit and natural mineral water, it delivers a smooth texture, bold flavour, and revitalising refreshment wherever you are.",
-                img: "1.png"
-            },
-            {
                 tag: "Evoca Cola",
                 heading: "CLASSIC TASTE<br>REIMAGINED",
                 desc: "Our signature Cola blend features natural mineral water and a unique black seed extract for a bold, sophisticated profile.<br><br>Experience a refreshing twist on a timeless classic, crafted for those who appreciate premium quality and authentic ingredients.",
                 img: "2.png"
             },
             {
-                tag: "Evoca Mango",
-                heading: "EVERY DROP <br>TROPICAL",
-                desc: "Savor the sun-ripened sweetness of exotic mangoes, perfectly balanced with our pure mineral water base.<br><br>A vibrant, refreshing escape that brings a burst of tropical energy to your day, with no artificial flavors or compromise.",
-                img: "3.png"
+                tag: "Evoca Strawberry",
+                heading: "AUTHENTIC TASTE<br>IN EVERY SIP",
+                desc: "Evoca Strawberry combines freshly pressed strawberry juice and premium ingredients for a naturally refreshing, authentic flavour.<br><br>Carefully crafted from real fruit and natural mineral water, it delivers a smooth texture, bold flavour, and revitalising refreshment wherever you are.",
+                img: "1.png"
             },
             {
                 tag: "Evoca Orange",
@@ -385,10 +384,16 @@
                 img: "4.png"
             },
             {
-                tag: "Evoca Grape",
-                heading: "VIVID FLAVOUR<br>BURST",
-                desc: "Indulge in the rich, deep essence of premium grapes, expertly blended for a sophisticated and revitalising drink.<br><br>Our Grape flavor offers a perfect balance of sweetness and tang, delivering a bold fruit experience that refreshes your senses with every drop.",
-                img: "5.png"
+                tag: "Evoca Mango",
+                heading: "EVERY DROP<br>TROPICAL",
+                desc: "Savor the sun-ripened sweetness of exotic mangoes, perfectly balanced with our pure mineral water base.<br><br>A vibrant, refreshing escape that brings a burst of tropical energy to your day, with no artificial flavors or compromise.",
+                img: "3.png"
+            },
+            {
+                tag: "Evoca Cola Zero",
+                heading: "ZERO CALORIES.<br>ALL THE TASTE.",
+                desc: "Indulge in the full, rich taste of our Cola, now with zero calories. Infused with real kola nut and our exclusive black seed extract, Evoca Cola Zero offers all the bold, sophisticated flavours of the original, without the sugar.<br><br>Perfect for those who want the taste they love with none of the calories, Evoca Cola Zero delivers refreshment, energy, and flavour in every sip.",
+                img: "Zero.png"
             }
         ];
 

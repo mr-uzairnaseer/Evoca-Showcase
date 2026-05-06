@@ -543,7 +543,7 @@ a {
 
 .campaign-header {
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .header-main {
@@ -561,6 +561,25 @@ a {
     max-width: 750px;
     margin: 0 auto;
     line-height: 1.7;
+}
+
+.campaign-banner {
+    width: 100%;
+    max-width: 1000px;
+    margin: 25px auto 10px;
+    border-radius: 40px;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    box-shadow: 0 40px 100px rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.banner-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    transition: none; /* Ensure no active effect */
 }
 
 .campaign-grid {
