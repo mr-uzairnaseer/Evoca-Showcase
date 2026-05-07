@@ -1916,7 +1916,7 @@ a {
 
 /* Color Enhancement (Shine Removed) */
 .hero-img-wrapper { position: relative; display: flex; justify-content: center; align-items: center; width: fit-content; height: fit-content; margin: 0 auto; overflow: hidden; }
-.hero-img { filter: drop-shadow(0 0 60px rgba(227, 30, 43, 0.45)) saturate(1.5) contrast(1.25) brightness(1.2) !important; transition: all 0.5s ease; }
+.hero-img { filter: drop-shadow(0 0 40px rgba(227, 30, 43, 0.45)) saturate(1.5) contrast(1.25) brightness(1.2) !important; transition: all 0.5s ease; }
 
 /* Hero Bottom Fade Overlay */
 .hero-fade-overlay { position: absolute; bottom: -20px; left: 50%; transform: translateX(-50%); width: 1400px; height: 350px; background: #000; border-radius: 700px 700px 0 0; filter: blur(80px); z-index: 5; pointer-events: none; opacity: 0.9; }
