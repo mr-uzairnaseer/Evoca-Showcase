@@ -826,7 +826,7 @@ a {
     max-width: 1300px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 1.6fr 0.6fr;
+    grid-template-columns: 1.5fr 1fr;
     gap: 60px;
     align-items: center;
 }
@@ -925,7 +925,7 @@ a {
     overflow: visible;
     height: 600px;
     box-shadow: 0 40px 100px rgba(0, 0, 0, 0.5);
-    max-width: 460px;
+    max-width: 550px;
     width: 100%;
     margin-left: auto;
 }
@@ -1071,15 +1071,15 @@ a {
 }
 
 .zero-can {
-    height: 700px;
+    height: 580px;
     width: auto;
     filter: drop-shadow(0 40px 80px rgba(0, 0, 0, 0.9));
-    transform: rotate(-3deg);
+    transform: rotate(0deg);
     transition: transform 0.5s ease;
 }
 
 .zero-can:hover {
-    transform: rotate(0deg) scale(1.02);
+    transform: scale(1.02);
 }
 
 .zero-right {
