@@ -353,10 +353,10 @@ a {
 }
 
 .hero-main-title h1 {
-    font-size: 4.2rem;
-    font-weight: 800;
-    line-height: 1;
-    letter-spacing: -1.5px;
+    font-size: 4rem;
+    font-weight: 900;
+    line-height: 0.9;
+    letter-spacing: -2px;
     text-transform: uppercase;
 }
 
@@ -391,8 +391,8 @@ a {
     justify-content: center;
     padding: 100px 8%;
     position: relative;
-    scroll-snap-align: center;
-    scroll-margin-top: 100px;
+    scroll-snap-align: start;
+    scroll-margin-top: 0;
 }
 
 .showcase-container {
@@ -547,8 +547,8 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    scroll-snap-align: center;
-    scroll-margin-top: 100px;
+    scroll-snap-align: start;
+    scroll-margin-top: 0;
 }
 
 .campaign-header {
@@ -557,10 +557,10 @@ a {
 }
 
 .header-main {
-    font-size: 4.8rem;
+    font-size: 4rem;
     font-weight: 900;
-    line-height: 0.95;
-    letter-spacing: -3px;
+    line-height: 0.9;
+    letter-spacing: -2px;
     margin-bottom: 25px;
     text-transform: uppercase;
 }
@@ -666,7 +666,7 @@ a {
     font-size: 1.05rem;
     font-weight: 500;
     line-height: 1.6;
-    margin-bottom: 8px;
+    margin-bottom: 4px;
     padding-left: 20px;
     text-align: justify;
 }
@@ -811,14 +811,14 @@ a {
 
 /* Signature Concept Section */
 .signature-concept {
-    min-height: 80vh;
+    min-height: 100vh;
     padding: 60px 8%;
     background-color: transparent;
     position: relative;
     display: flex;
     align-items: center;
-    scroll-snap-align: center;
-    scroll-margin-top: 100px;
+    scroll-snap-align: start;
+    scroll-margin-top: 0;
 }
 
 .concept-grid {
@@ -845,9 +845,9 @@ a {
 }
 
 .concept-heading {
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: 900;
-    line-height: 0.95;
+    line-height: 0.9;
     letter-spacing: -2px;
     margin-bottom: 35px;
     text-transform: uppercase;
@@ -1030,8 +1030,8 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    scroll-snap-align: center;
-    scroll-margin-top: 100px;
+    scroll-snap-align: start;
+    scroll-margin-top: 0;
     overflow: hidden;
     background-color: transparent;
     margin-top: 0;
@@ -1109,6 +1109,7 @@ a {
     padding: 40px 8%;
     border-top: 1px solid rgba(255, 255, 255, 0.05);
     background-color: transparent;
+    scroll-snap-align: end;
 }
 
 .footer-container {
@@ -1473,10 +1474,11 @@ a {
 }
 
 .page-title {
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: 900;
     text-transform: uppercase;
     letter-spacing: -2px;
+    line-height: 0.9;
     margin-bottom: 20px;
 }
 
