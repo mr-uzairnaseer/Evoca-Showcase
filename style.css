@@ -597,8 +597,8 @@ a {
     max-width: 1300px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 1.2fr 1fr;
-    gap: 120px;
+    grid-template-columns: 2.8fr 1fr;
+    gap: 100px;
     align-items: center;
 }
 
@@ -607,7 +607,7 @@ a {
     font-weight: 900;
     line-height: 0.9;
     letter-spacing: -2px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     text-transform: uppercase;
 }
 
@@ -647,9 +647,37 @@ a {
 }
 
 .feature-card p {
-    color: #ffffff;
-    font-size: 1rem;
+    color: #a0aec0;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    max-width: 100%;
+    text-align: justify;
+}
+
+.principles-list {
+    margin: 15px 0;
+    padding-left: 20px;
+    list-style: none;
+}
+
+.principles-list li {
+    position: relative;
+    color: #a0a0a0;
+    font-size: 1.05rem;
+    font-weight: 500;
     line-height: 1.6;
+    margin-bottom: 8px;
+    padding-left: 20px;
+    text-align: justify;
+}
+
+.principles-list li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: #3191f7;
+    font-size: 1.4rem;
+    line-height: 1;
 }
 
 .visual-container {
