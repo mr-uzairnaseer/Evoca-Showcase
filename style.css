@@ -188,8 +188,10 @@ a {
 /* Header / Navbar */
 .navbar {
     display: flex;
-    justify-content: center; /* Centering the inner container */
-    padding: 0 8%; /* Percentage padding for smaller screens */
+    justify-content: center;
+    /* Centering the inner container */
+    padding: 0 8%;
+    /* Percentage padding for smaller screens */
     width: 100%;
     position: fixed;
     top: 0;
@@ -207,14 +209,15 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 0; /* Vertical padding only, horizontal handled by parent or margin */
+    padding: 20px 0;
+    /* Vertical padding only, horizontal handled by parent or margin */
 }
 
-.navbar.scrolled { 
-    background-color: #051329 !important; 
-    backdrop-filter: blur(15px); 
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1); 
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3); 
+.navbar.scrolled {
+    background-color: #051329 !important;
+    backdrop-filter: blur(15px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
 }
 
 .navbar.scrolled .navbar-container {
@@ -270,9 +273,39 @@ a {
     transform: none;
 }
 
-.hero { min-height: 100vh; display: flex; justify-content: center; align-items: flex-start; padding: 300px 8% 0; position: relative; scroll-snap-align: start; overflow: hidden;  margin-bottom: 0 !important; }
-.hero-visual { position: absolute; top: 40%; left: 50%; transform: translate(-50%, -50%); width: 100%; display: flex; justify-content: center; align-items: center; z-index: 1; pointer-events: none; opacity: 0.8; }
-.hero-img { width: auto; height: 80%; max-height: 85vh; object-fit: contain; filter: drop-shadow(0 0 50px rgba(0,0,0,0.5)); }
+.hero {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 300px 8% 0;
+    position: relative;
+    scroll-snap-align: start;
+    overflow: hidden;
+    margin-bottom: 0 !important;
+}
+
+.hero-visual {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    pointer-events: none;
+    opacity: 0.8;
+}
+
+.hero-img {
+    width: auto;
+    height: 80%;
+    max-height: 85vh;
+    object-fit: contain;
+    filter: drop-shadow(0 0 50px rgba(0, 0, 0, 0.5));
+}
 
 
 .hero-sides-container {
@@ -282,7 +315,8 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    padding: 0 4px; /* Fine-tuned adjustment to perfectly align with navbar content */
+    padding: 0 4px;
+    /* Fine-tuned adjustment to perfectly align with navbar content */
     z-index: 10;
 }
 
@@ -507,7 +541,8 @@ a {
 }
 
 /* Marquee / Scrollable Background Ribbon */
-.marquee-wrapper { margin-top: 0 !important;
+.marquee-wrapper {
+    margin-top: 0 !important;
     background-color: var(--primary-red);
     padding: 20px 0;
     width: 100vw;
@@ -1476,6 +1511,13 @@ a {
     padding: 160px 8% 60px;
     text-align: center;
     background: linear-gradient(to bottom, rgba(227, 30, 43, 0.05), transparent);
+    width: 100%;
+}
+
+.page-header-container {
+    max-width: 1300px;
+    margin: 0 auto;
+    width: 100%;
 }
 
 .page-title {
@@ -1743,7 +1785,7 @@ a {
     }
 
     .navbar {
-        padding: 15px 5%;
+        padding: 15px 8%;
     }
 
     .menu-toggle {
@@ -1935,8 +1977,34 @@ a {
 }
 
 /* Color Enhancement (Shine Removed) */
-.hero-img-wrapper { position: relative; display: flex; justify-content: center; align-items: center; width: fit-content; height: fit-content; margin: 0 auto; overflow: hidden; }
-.hero-img { filter: drop-shadow(0 0 40px rgba(227, 30, 43, 0.45)) saturate(1.5) contrast(1.25) brightness(1.1) !important; transition: all 0.5s ease; }
+.hero-img-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.hero-img {
+    filter: drop-shadow(0 0 40px rgba(227, 30, 43, 0.45)) saturate(1.5) contrast(1.25) brightness(1.1) !important;
+    transition: all 0.5s ease;
+}
 
 /* Hero Bottom Fade Overlay */
-.hero-fade-overlay { position: absolute; bottom: -20px; left: 50%; transform: translateX(-50%); width: 1400px; height: 350px; background: #000; border-radius: 700px 700px 0 0; filter: blur(80px); z-index: 5; pointer-events: none; opacity: 0.9; }
+.hero-fade-overlay {
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1400px;
+    height: 350px;
+    background: #000;
+    border-radius: 700px 700px 0 0;
+    filter: blur(80px);
+    z-index: 5;
+    pointer-events: none;
+    opacity: 0.9;
+}
